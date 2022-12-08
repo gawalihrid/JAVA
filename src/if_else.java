@@ -11,8 +11,22 @@ import java.util.regex.*;
 public class if_else {
     public static void main(String[] args) {
 
-       /* Scanner sc = new Scanner(System.in);
+       Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter the number");
+        int N = sc.nextInt();
+        if(N>0){
+            System.out.println("It is a positive number");
+        }
+        else if(N<0){
+            System.out.println("It is Negative number");
+        }
 
+         else {
+             System.out.println("Number is zero");
+         }
+
+
+       /*
         System.out.println("How many subjects");
         int n = sc.nextInt();
 
@@ -35,11 +49,10 @@ public class if_else {
 
 
         System.out.println("Thank you");
+*/
 
 
-        */
-
-
+      /*
         final Scanner scanner = new Scanner(System.in);
 
                 int N = scanner.nextInt();
@@ -47,6 +60,6 @@ public class if_else {
 
                 scanner.close();
 
-
+*/
     }
 }

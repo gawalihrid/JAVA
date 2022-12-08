@@ -11,7 +11,7 @@ public class size1 {
 
     public static void main(String[] args) throws IOException {
 
-        Path path = Paths.get("C:\\Users\\Hp\\Desktop\\abc");
+        Path path = Paths.get("G:\\A\\Hridhanshu");
         List<Path> paths = listFiles(path);
         paths.forEach(System.out::println);
 

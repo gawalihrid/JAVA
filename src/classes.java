@@ -5,6 +5,8 @@ class hack{
     int no2;
     void  add(int no1, int no2 )
     {
+        int ans = 0;
+        System.out.println(ans=no1+no2);
     }
 }
 
@@ -15,7 +17,7 @@ public class classes {
 
         hack hrid = new hack();
 
-        System.out.println("EEnter no1 :");
+        System.out.println("Enter no1 :");
         hrid.no1= sc.nextInt();
         System.out.println("Enter no2:");
         hrid.no2= sc.nextInt();

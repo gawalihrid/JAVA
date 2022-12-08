@@ -1,7 +1,4 @@
-
-
-import java.util.*;
-import java.util.concurrent.LinkedBlockingQueue;
+package java;
 
 public class Array {
     public static void main(String[] argv) throws Exception {

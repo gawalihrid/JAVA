@@ -1,8 +1,14 @@
-import java.util.*;
 import java.lang.*;
-import java.util.Calendar;
-import java.io.*;
-import java.math.*;
+import java.util.Arrays;
+import java.util.Scanner;
+
+import java.util.StringTokenizer;
+import java.util.regex.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import static java.lang.System.in;
+
 
 
 /*
@@ -56,23 +62,185 @@ class Solution {
 
  */
 
-
 public class Hackerrank {
-    public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-
-        for (int i =n; i>=1;i--)
+    /*public static void isAnagram(String str1, String str2){
+        String a = str1.replaceAll("\\s","");
+        String b = str2.replaceAll("\\s","");
+        boolean status = true;
+        if(a.length()!=b.length())
         {
-            for (int j = 1;j<=i; j++)
-            {
-                System.out.print("*\t");
-            }
-            System.out.println();
+            status= false;
+        }
+        else{
+            char[] ArrayS1=a.toLowerCase().toCharArray();
+            char[] ArrayS2=b.toLowerCase().toCharArray();
+
+            Arrays.sort(ArrayS1);
+            Arrays.sort(ArrayS2);
+
+            status=Arrays.equals(ArrayS1,ArrayS2);
+
+        }
+        if (status){
+            System.out.println(a +" and "+b +"are anagrams");
+        }
+        else {
+            System.out.println(a +" and "+b+" are not anagram ");
         }
 
+    }
 
+
+
+     */
+ /*
+    // Lexicographically code
+   public static boolean lexi(String str1, String str2) {
+
+
+       // Compare the two strings.
+       int result = str1.compareTo(str2);
+
+       // Display the results of the comparison.
+       if (result < 0) {
+           return false;
+       } else if (result == 0) {
+           return false;
+       } else // if (result > 0)
+       {
+           return true;
+       }
+   }
+*/
+
+    /*
+static boolean isPalindrome(String str)
+{
+
+    // Pointers pointing to the beginning
+    // and the end of the string
+    int i = 0, j = str.length() - 1;
+
+    // While there are characters to compare
+    while (i < j) {
+
+        // If there is a mismatch
+        if (str.charAt(i) != str.charAt(j))
+            return false;
+
+        // Increment first pointer and
+        // decrement the other
+        i++;
+        j--;
+    }
+
+    // Given string is a palindrome
+    return true;
+}
+
+     */
+
+    public static String getSmallestAndLargest(String s, int k) {
+        String smallest = "";
+        String largest = "";
+        smallest = largest = s.substring(0, k);
+
+        for (int i=1; i<s.length()-k+1; i++) {
+            String substr = s.substring(i, i+k);
+            if (smallest.compareTo(substr) > 0)
+                smallest = substr;
+            if (largest.compareTo(substr) < 0)
+                largest = substr;
+        }
+
+        return smallest + "\n" + largest;
+    }
+
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        String s = scan.next();
+        int k = scan.nextInt();
+        scan.close();
+
+        System.out.println(getSmallestAndLargest(s, k));
+
+        /*
+        Scanner sc = new Scanner(System.in);
+        int testcases=Integer.parseInt(sc.nextLine());
+        while(testcases>0)
+        {
+            String pattern = sc.nextLine();
+            try{
+                Pattern.compile(pattern);
+                System.out.println("Valid");
+            }
+            catch(Exception e){
+                System.out.println("Invalid");
+        }
+        }
+        testcases--;
+         */
+
+
+       /* // Input string
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+
+        //Convert the string to lowercase
+        str = str.toLowerCase();
+        // passing bool function till holding true
+        if (isPalindrome(str))
+
+            // It is a palindrome
+            System.out.print("Yes");
+        else
+
+            // Not a palindrome
+            System.out.print("No");
+
+        */
+        /*  // String Range print
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        int start= sc.nextInt();
+        int end= sc.nextInt();
+        System.out.println(str.substring(start,end));
+
+       */
+
+        /*
+       //lexicographically code
+        Scanner sc = new Scanner(System.in);
+        String A = sc.nextLine();
+        String B = sc.nextLine();
+
+        System.out.println(A.length()+B.length());
+        boolean b=false;
+        b= lexi(A,B);
+        if (b==true){
+            System.out.println("Yes");
+        }
+        else {
+            System.out.println("No");
+        }
+
+        String c= A+" "+ B;
+        String words[]=c.split("\\s");
+        String capitalizeStr="";
+
+        for(String word:words){
+            // Capitalize first letter
+            String firstLetter=word.substring(0,1);
+            // Get remaining letter
+            String remainingLetters=word.substring(1);
+            capitalizeStr+=firstLetter.toUpperCase()+remainingLetters+" ";
+        }
+        System.out.println(capitalizeStr);
+
+*/
 
         /*
         Scanner scn = new Scanner(System.in);
@@ -95,7 +263,8 @@ public class Hackerrank {
 
 
          */
- /*
+
+        /*
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
         int digit = 0;
@@ -127,7 +296,7 @@ public class Hackerrank {
             }
     }*/
         // Calendar class use program
-    /*
+         /*
     public static String findDay(int month,int day ,int year)
     {
         String[]day_of_week={"SUNDAY" ,"MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"};
@@ -238,7 +407,7 @@ public class Hackerrank {
 
         */
 
-
     }
+
 }
 

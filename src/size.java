@@ -18,7 +18,7 @@ public class size {
     public long whenGetFolderSizeUsingJava8_thenCorrect() throws IOException {
         long expectedSize = 12607;
 
-        Path folder = Paths.get("C:\\Users\\Hp\\Desktop\\abc");
+        Path folder = Paths.get("G:\\A\\Hridhanshu\\Hridhanshu");
         long size = Files.walk(folder)
                 .filter(p -> p.toFile().isFile())
                 .mapToLong(p -> p.toFile().length())

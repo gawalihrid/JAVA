@@ -8,7 +8,7 @@ public class Methods {
 
     public static void main(String[] args) throws IOException {
 
-        var dirName = "C:\\Users\\Hp\\Desktop\\abc";
+        var dirName = "C:\\Users\\Hp\\iCloudDrive\\Anoop";
 
         try (Stream<Path> paths = Files.walk(Paths.get(dirName), 2)) {
             paths.filter(Files::isRegularFile)
