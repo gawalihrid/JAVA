@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="934ac8d6-2a28-44ce-a46d-0c90757714a7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abstract_class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mix_sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polymorphism_static.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polymosphism_dynamic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/CreateFileExample1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/sec/CreateFileExample1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/Hackerrank.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/sec/Hackerrank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/sec/Inner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/Methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/sec/Methods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/classes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/sec/classes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/geekcomp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/sec/geekcomp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/hack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/sec/hack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/if_else.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/sec/if_else.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/sec/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/percentage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/sec/percentage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/size.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/sec/size.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/size1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/sec/size1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/sec/xyz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateFileExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/CreateFileExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hackerrank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes.java" beforeDir="false" afterPath="$PROJECT_DIR$/classes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekcomp.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekcomp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/if_else.java" beforeDir="false" afterPath="$PROJECT_DIR$/if_else.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/percentage.java" beforeDir="false" afterPath="$PROJECT_DIR$/percentage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/size.java" beforeDir="false" afterPath="$PROJECT_DIR$/size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/size1.java" beforeDir="false" afterPath="$PROJECT_DIR$/size1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xyz.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26FlPWnQcuUhzQHNydWX162ZxI9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/A Programming/PPA/JAVA/Practice Program"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="934ac8d6-2a28-44ce-a46d-0c90757714a7" name="Changes" comment="" />
+      <created>1647027191165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647027191165</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
